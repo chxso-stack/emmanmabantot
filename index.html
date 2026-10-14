@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aralynk connects BASC students with local job opportunities in San Ildefonso, Bulacan.">
+  <title>Aralynk — Find work that fits your life</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement"><span class="sparkle">✦</span> Built for BASC students and local businesses <span class="announce-location">· San Ildefonso, Bulacan</span></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Aralynk home"><span class="brand-mark">a</span><span>ara<span class="brand-light">lynk</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+    <nav id="nav">
+      <a href="#how">How it works</a><a href="#jobs">Find a job</a><a href="#business">For businesses</a>
+      <button class="btn btn-outline nav-login" id="loginBtn">Log in</button>
+      <a class="btn btn-primary nav-cta" href="#jobs">Explore opportunities <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> YOUR NEXT OPPORTUNITY STARTS HERE</div>
+        <h1>School is your<br>focus. <span>Your future</span><br>is our link.</h1>
+        <p class="hero-text">Find part-time work that fits your class schedule, or connect with motivated students ready to help your business grow.</p>
+        <div class="hero-actions"><a class="btn btn-primary btn-large" href="#jobs">Find your next job <span>↗</span></a><a class="text-link" href="#how"><span class="play-icon">▶</span> See how it works</a></div>
+        <div class="hero-proof"><div class="avatar-stack"><span>J</span><span>M</span><span>A</span><span>+</span></div><div><strong>Local talent. Real opportunities.</strong><small>Connecting students and businesses, closer to home.</small></div></div>
+      </div>
+      <div class="hero-visual">
+        <div class="blob blob-one"></div><div class="blob blob-two"></div>
+        <div class="floating-note note-top"><span class="note-icon green">✓</span><div><strong>Great match!</strong><small>Fits your free time</small></div></div>
+        <div class="profile-card">
+          <div class="card-top"><span class="mini-label">STUDENT PROFILE</span><span class="more">•••</span></div>
+          <div class="profile-person"><div class="person-avatar">JM</div><div><h3>Jamie Mendoza</h3><p>BS Information Technology</p></div><span class="verified">✓</span></div>
+          <div class="skill-label">SKILLS & INTERESTS</div><div class="skills"><span>Customer service</span><span>Canva</span><span>Basic coding</span></div>
+          <div class="availability"><span class="availability-dot"></span><div><strong>Available after class</strong><small>Weekdays · 4 PM onwards</small></div></div>
+          <div class="match-box"><div><small>PROFILE MATCH</small><strong>92% <span>match</span></strong></div><div class="match-bar"><i></i></div></div>
+        </div>
+        <div class="floating-note note-bottom"><div class="business-icon">↗</div><div><strong>Local businesses</strong><small>Meet your next teammate</small></div></div>
+        <div class="hero-caption">GOOD WORK. GOOD FIT. RIGHT HERE.</div>
+      </div>
+    </section>
+
+    <section class="trust-strip"><div><strong>Made for the community</strong><span>Helping local talent find local opportunities.</span></div><div class="trust-item"><span class="trust-icon">⌂</span><div><b>Nearby opportunities</b><small>Discover work around you</small></div></div><div class="trust-item"><span class="trust-icon">◷</span><div><b>Schedule-friendly</b><small>Work around your classes</small></div></div><div class="trust-item"><span class="trust-icon">↔</span><div><b>Direct connection</b><small>Students meet employers</small></div></div></section>
+
+    <section class="section-wrap jobs-section" id="jobs">
+      <div class="section-heading"><div><div class="eyebrow">FIND YOUR FIT</div><h2>Opportunities that <span>work for you.</span></h2><p>Explore sample local openings and discover what fits your skills and schedule.</p></div><a href="#all-jobs" class="text-link">View all jobs <span>↗</span></a></div>
+      <div class="job-tools"><div class="search-box"><span>⌕</span><input id="jobSearch" type="search" placeholder="Search jobs, skills, or businesses..." aria-label="Search jobs"></div><select id="jobType" aria-label="Filter by job type"><option value="all">All job types</option><option value="Part-time">Part-time</option><option value="Freelance">Freelance</option><option value="Temporary">Temporary</option></select></div>
+      <div class="job-grid" id="jobGrid">
+        <article class="job-card" data-title="social media assistant" data-skills="canva social media content marketing" data-type="Part-time">
+          <div class="job-card-top"><div class="company-logo logo-peach">✳</div><span class="job-type">Part-time</span></div><h3>Social Media Assistant</h3><p class="company-name">Local Brew Café <span>·</span> San Ildefonso</p><div class="job-details"><span>₱90–₱120 <small>/ hour</small></span><span>◷ Flexible shifts</span></div><div class="job-tags"><span>Canva</span><span>Content</span><span>Social media</span></div><button class="job-apply" data-job="Social Media Assistant">View opportunity <span>↗</span></button>
+        </article>
+        <article class="job-card featured-job" data-title="computer shop assistant" data-skills="computer troubleshooting customer service technology" data-type="Part-time">
+          <div class="job-card-top"><div class="company-logo logo-lime">⌘</div><span class="job-type">Part-time</span></div><h3>Computer Shop Assistant</h3><p class="company-name">BytePoint Computer Hub <span>·</span> San Ildefonso</p><div class="job-details"><span>₱450–₱600 <small>/ day</small></span><span>◷ After-class hours</span></div><div class="job-tags"><span>Basic IT</span><span>Troubleshooting</span><span>Customer service</span></div><button class="job-apply" data-job="Computer Shop Assistant">View opportunity <span>↗</span></button>
+        </article>
+        <article class="job-card" data-title="weekend sales associate" data-skills="sales communication retail customer service" data-type="Temporary">
+          <div class="job-card-top"><div class="company-logo logo-lavender">✦</div><span class="job-type">Temporary</span></div><h3>Weekend Sales Associate</h3><p class="company-name">Northside General Store <span>·</span> San Ildefonso</p><div class="job-details"><span>₱500 <small>/ day</small></span><span>◷ Weekends</span></div><div class="job-tags"><span>Communication</span><span>Retail</span><span>Sales</span></div><button class="job-apply" data-job="Weekend Sales Associate">View opportunity <span>↗</span></button>
+        </article>
+      </div>
+      <div class="no-results" id="noResults" hidden>No matching jobs found. Try another keyword or job type.</div>
+      <p class="demo-note">Demo preview: these listings are sample opportunities for showcasing the Aralynk concept.</p>
+    </section>
+
+    <section class="how-section" id="how"><div class="section-wrap">
+      <div class="center-heading"><div class="eyebrow">SIMPLE BY DESIGN</div><h2>From searching to <span>starting.</span></h2><p>A simple way for students and local businesses to find the right fit.</p></div>
+      <div class="steps-grid">
+        <article class="step-card"><div class="step-number">01</div><div class="step-icon">◎</div><h3>Create your profile</h3><p>Show your skills, school program, interests, and when you're available to work.</p><span class="step-arrow">↗</span></article>
+        <article class="step-card"><div class="step-number">02</div><div class="step-icon">⌕</div><h3>Discover your match</h3><p>Browse local opportunities that fit your skills, preferences, and class schedule.</p><span class="step-arrow">↗</span></article>
+        <article class="step-card"><div class="step-number">03</div><div class="step-icon">↔</div><h3>Connect and apply</h3><p>Send an application and connect with a business about the opportunity.</p><span class="step-arrow">↗</span></article>
+      </div>
+    </div></section>
+
+    <section class="business-section section-wrap" id="business">
+      <div class="business-panel"><div class="business-copy"><div class="eyebrow light-eyebrow">FOR LOCAL BUSINESSES</div><h2>Good people are<br><span>closer than you think.</span></h2><p>Find enthusiastic BASC students for part-time roles, short-term projects, and extra hands when your business needs them.</p><ul><li><span>✓</span> Post opportunities in minutes</li><li><span>✓</span> Discover students by skills and availability</li><li><span>✓</span> Connect with talent in your community</li></ul><button class="btn btn-white" id="businessBtn">I'm hiring <span>↗</span></button></div><div class="business-art"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="big-symbol">a<span>.</span></div><div class="orbit-tag tag-one">LOCAL TALENT</div><div class="orbit-tag tag-two">REAL CONNECTIONS</div><div class="orbit-tag tag-three">GROW TOGETHER ↗</div></div></div>
+    </section>
+
+    <section class="cta-section section-wrap"><div class="cta-inner"><div><div class="eyebrow">YOUR NEXT CHAPTER</div><h2>Small steps can lead<br>to <span>big things.</span></h2><p>Start exploring local opportunities that fit your goals and your schedule.</p></div><a class="btn btn-primary btn-large" href="#jobs">Explore opportunities <span>↗</span></a><div class="cta-decoration">✳</div></div></section>
+  </main>
+
+  <footer><div class="footer-top"><a class="brand" href="#home"><span class="brand-mark">a</span><span>ara<span class="brand-light">lynk</span></span></a><p>Connecting student potential with local opportunity.</p><div class="footer-links"><a href="#how">How it works</a><a href="#jobs">Find a job</a><a href="#business">For businesses</a></div></div><div class="footer-bottom"><span>© 2026 Aralynk · Concept website</span><span>Made for the BASC community in Bulacan</span></div></footer>
+
+  <div class="modal-backdrop" id="modal" hidden><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="modalClose" aria-label="Close dialog">×</button><div class="modal-mark">a</div><div class="eyebrow">ARALYNK DEMO</div><h2 id="modalTitle">Get connected.</h2><p id="modalText">This is a front-end concept preview. Account creation and applications can be connected to a backend later.</p><form id="demoForm"><label for="demoName">Your name</label><input id="demoName" required placeholder="Enter your name"><label for="demoEmail">Email address</label><input id="demoEmail" type="email" required placeholder="you@example.com"><label for="demoRole">I am a...</label><select id="demoRole"><option>Student looking for work</option><option>Business looking to hire</option></select><button class="btn btn-primary btn-large" type="submit">Continue <span>↗</span></button></form><p class="form-success" id="formSuccess" hidden>Thanks! This demo form is working locally. A real signup system needs backend integration.</p></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
